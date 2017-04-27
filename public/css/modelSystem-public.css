@@ -1,0 +1,102 @@
+body
+{
+	font-family: "Microsoft Yahei";
+	background-color: rgba(149,149,169,0.2);
+}
+
+button
+{
+	padding: 6px 18px;
+	font-size: 20px;
+	background-color: rgba(0,0,0,0.8);
+	color: #ffffff;
+	border-style: none;
+	outline: none;
+	border-radius: 3px;
+	margin: 5px 15px;
+}
+
+button:hover
+{
+	background-color: rgba(0,0,0,1);
+	cursor: pointer;
+}
+
+input
+{
+	padding: 2px;
+	border: 2px solid rgba(0,148,205,0.8);
+	font-size: 20px;
+	border-radius: 3px;
+	outline: none;
+	width: 240px;
+}
+
+input:focus
+{
+	border-color: rgba(0,148,205,1);
+}
+
+
+.model-system-header h1
+{
+	margin: 20px 50px;
+	font-family: KaiTi;
+	color: #000000;
+}
+
+.model-system-header hr
+{
+	width: 90%;
+	margin: 30px 50px;
+	border: 1px solid #34b8c0;
+}
+
+.model-system-hint
+{
+	font-size: 18px;
+	color: rgba(247,15,56,1);
+	margin-bottom: 10px;
+}
+
+.model-system-table
+{
+	border-collapse: collapse;
+}
+
+.model-system-table th
+{
+	border-width: 1px;  
+    padding: 8px;  
+    border-style: solid;  
+    border-color: #ffffff;  
+    background-color: #34b8c0; 
+    color: #ffffff;
+    text-align: center;
+    min-width: 80px;
+}
+
+.model-system-table td
+{
+    padding: 5px 20px 15px 20px;
+    background-color: rgba(0, 0, 0, 0.0);
+}
+
+.model-system-table tr
+{
+	border-bottom: 1px solid #34b8c0;
+}
+
+.model-system-mask
+{
+	position: fixed;
+    text-align: center;
+    visibility: visible;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 999;
+    overflow: hidden;
+    background-color: rgba(255,255,255,0.8);
+}

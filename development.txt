@@ -1,0 +1,4 @@
+$_SESSION 定义
+$_SESSION['user']：string，登录的用户名
+
+select machineCode, machineName, modelCode, partCode, partName, taskName, userId, name, ptl.startTime, totalTime from part_task_list as ptl left join machine_info mai on ptl.machineId = mai.machineId left join part_info pi on ptl.belongedPart = pi.id left join model_info mi on pi.belongedModel = mi.modelId left join user_info ui on ptl.userId = ui.id where ptl.flag =1 and ptl.finishTime is null

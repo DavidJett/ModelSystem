@@ -1,0 +1,44 @@
+.model-system-container
+{
+	
+}
+
+.model-system-table
+{
+	margin: 0px auto;
+}
+
+.model-system-table td
+{
+	padding: 5px 5px;
+}
+
+.inside-table
+{
+	border-collapse: collapse;
+
+}
+
+.inside-table th
+{
+	border-width: 1px;  
+    padding: 4px;  
+    border-style: solid;  
+    border-color: #ffffff;
+    background-color: rgba(52, 184, 192, 1); 
+    color: #ffffff;
+    text-align: center;
+    min-width: 80px;
+    font-weight: 500;
+}
+
+.inside-table td
+{
+	text-align: center;
+    background-color: rgba(0, 0, 0, 0.0);
+}
+
+.inside-table tr
+{
+	border-bottom: 0px solid #34b8c0;
+}
